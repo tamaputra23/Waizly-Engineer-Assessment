@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "531ab8a6-aa39-40f1-bef8-58f7980995b5",
+		"name": "Waizly Engineer Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24621953"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"johnsmith\",\r\n    \"password\": \"john1234\",\r\n    \"employee_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"johnsmith\",\r\n    \"password\": \"john1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/employees",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5zbWl0aCIsImVtcGxveWVlX2lkIjoxLCJpYXQiOjE3MDA3NTYwMjAsImV4cCI6MTcwMDc1OTYyMH0.lYAQzB6-hfdvHOWbK7OuDGH5v6QkIwK2xLGzujueLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/employee/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5zbWl0aCIsImVtcGxveWVlX2lkIjoxLCJpYXQiOjE3MDA3NTYwMjAsImV4cCI6MTcwMDc1OTYyMH0.lYAQzB6-hfdvHOWbK7OuDGH5v6QkIwK2xLGzujueLgA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"job_title\": \"Developer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/employee/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"employee",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/insertEmployee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5zbWl0aCIsImVtcGxveWVlX2lkIjoxLCJpYXQiOjE3MDA3NDY5NzYsImV4cCI6MTcwMDc1MDU3Nn0.flYT3ho263zhd-Tycb6N7xiYccX49jDJ68ejFUs7PKc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Abdul Salam\",\r\n    \"job_title\": \"Developer\",\r\n    \"salary\": 67000,\r\n    \"department\": \"IT\",\r\n    \"joined_date\": \"2023-06-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/insertEmployee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"insertEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/deleteEmployee/7",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5zbWl0aCIsImVtcGxveWVlX2lkIjoxLCJpYXQiOjE3MDA3NTEyMjYsImV4cCI6MTcwMDc1NDgyNn0.kX-fU_p67KylTo-0GPH8PvGfoqa6gyht9vlRhxpFpYo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deleteEmployee/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deleteEmployee",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

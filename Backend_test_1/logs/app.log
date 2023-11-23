@@ -1,0 +1,130 @@
+{"level":"info","message":"::1 - - [23/Nov/2023:12:04:59 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\"","timestamp":"2023-11-23T12:04:59.143Z"}
+{"level":"info","message":"Test Logger","timestamp":"2023-11-23T12:08:39.639Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:08:39 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\"","timestamp":"2023-11-23T12:08:39.646Z"}
+{"level":"info","message":"Test Logger","timestamp":"2023-11-23T12:33:38.725Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:33:38 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\"","timestamp":"2023-11-23T12:33:38.734Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:35:09.766Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:35:43.908Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:38:35.502Z"}
+{"level":"error","message":"Error when register with error: TypeError: Cannot read properties of undefined (reading 'trim')","timestamp":"2023-11-23T12:38:35.507Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:38:35 +0000] \"POST /register HTTP/1.1\" 500 46 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:38:35.516Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:41:58.390Z"}
+{"level":"error","message":"Error when register with error: Error: data and salt arguments required","timestamp":"2023-11-23T12:41:58.395Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:41:58 +0000] \"POST /register HTTP/1.1\" 500 48 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:41:58.407Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:42:43.640Z"}
+{"level":"error","message":"Error when register with error: Error: data and salt arguments required","timestamp":"2023-11-23T12:42:43.647Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:42:43 +0000] \"POST /register HTTP/1.1\" 500 48 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:42:43.654Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:45:11.776Z"}
+{"level":"error","message":"Error when register: error: syntax error at or near \"*\"","timestamp":"2023-11-23T12:45:11.938Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:45:11 +0000] \"POST /register HTTP/1.1\" 500 181 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:45:11.946Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:45:47.664Z"}
+{"level":"error","message":"Error when register: error: syntax error at or near \"*\"","timestamp":"2023-11-23T12:45:47.813Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:45:47 +0000] \"POST /register HTTP/1.1\" 500 181 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:45:47.819Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:46:57.981Z"}
+{"level":"error","message":"Error when register: error: null value in column \"user_id\" of relation \"users\" violates not-null constraint","timestamp":"2023-11-23T12:46:58.151Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:46:58 +0000] \"POST /register HTTP/1.1\" 500 377 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:46:58.158Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:49:52.440Z"}
+{"level":"error","message":"Error when register: ReferenceError: user is not defined","timestamp":"2023-11-23T12:49:52.617Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:49:52 +0000] \"POST /register HTTP/1.1\" 500 48 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:49:52.618Z"}
+{"level":"info","message":"User Register with (username: johnsmith, employee_id: 1","timestamp":"2023-11-23T12:52:22.857Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:12:52:23 +0000] \"POST /register HTTP/1.1\" 201 212 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T12:52:23.230Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:03:27.089Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:05:06.468Z"}
+{"level":"error","message":"Error when login: error: syntax error at or near \"1\"","timestamp":"2023-11-23T13:05:06.545Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:05:06 +0000] \"POST /login HTTP/1.1\" 500 175 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:05:06.552Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:05:33.801Z"}
+{"level":"error","message":"Error when login: ReferenceError: user is not defined","timestamp":"2023-11-23T13:05:33.884Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:05:33 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:05:33.891Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:06:35.155Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:06:35.244Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:06:35 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:06:35.252Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:08:35.109Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:08:35.284Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:08:35 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:08:35.291Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:09:22.130Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:09:22.284Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:09:22 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:09:22.290Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:09:43.580Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:09:43.730Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:09:43 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:09:43.732Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:15:38.555Z"}
+{"level":"error","message":"Error when login: ReferenceError: hashedPassword is not defined","timestamp":"2023-11-23T13:15:38.637Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:15:38 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:15:38.645Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:15:54.355Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:15:54.437Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:15:54 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:15:54.443Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:16:22.941Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:16:23.062Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:16:23 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:16:23.069Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:17:29.420Z"}
+{"level":"error","message":"Error when login: Error: data and hash arguments required","timestamp":"2023-11-23T13:17:29.501Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:17:29 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:17:29.508Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:17:52.040Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:17:52 +0000] \"POST /login HTTP/1.1\" 201 171 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:17:52.222Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:19:21.411Z"}
+{"level":"error","message":"Error when login: ReferenceError: employee_id is not defined","timestamp":"2023-11-23T13:19:21.573Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:19:21 +0000] \"POST /login HTTP/1.1\" 500 41 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:19:21.579Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:19:42.040Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:19:42 +0000] \"POST /login HTTP/1.1\" 201 192 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:19:42.228Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:33:44 +0000] \"GET /login HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:33:44.769Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:34:02 +0000] \"GET /getemployee HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:34:02.248Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:41:38 +0000] \"GET /getemployee HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:41:38.018Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:41:52 +0000] \"GET /getemployee HTTP/1.1\" 500 1545 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:41:52.184Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T13:42:22.309Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:42:22 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:42:22.318Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T13:42:56.278Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:42:56 +0000] \"POST /login HTTP/1.1\" 201 192 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:42:56.436Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T13:43:03.378Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:43:03 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:43:03.381Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T13:43:38.491Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:43:38 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:43:38.502Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T13:45:06.506Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:45:06 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:45:06.516Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T13:46:06.658Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:46:06 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:46:06.660Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T13:46:16.468Z"}
+{"level":"error","message":"Error when get all employee: error: syntax error at or near \"BY\"","timestamp":"2023-11-23T13:46:16.541Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:46:16 +0000] \"GET /getemployee HTTP/1.1\" 500 181 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:46:16.547Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T13:47:34.648Z"}
+{"level":"error","message":"Error when get all employee: error: syntax error at or near \"BY\"","timestamp":"2023-11-23T13:47:34.747Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:47:34 +0000] \"GET /getemployee HTTP/1.1\" 500 181 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:47:34.753Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T13:48:11.624Z"}
+{"level":"error","message":"Error when get all employee: error: syntax error at or near \"BY\"","timestamp":"2023-11-23T13:48:11.688Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:48:11 +0000] \"GET /getemployee HTTP/1.1\" 500 181 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:48:11.694Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T13:49:53.227Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:49:53 +0000] \"GET /getemployee HTTP/1.1\" 201 1547 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:49:53.299Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T13:50:18.992Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:13:50:19 +0000] \"GET /getemployee HTTP/1.1\" 201 1547 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T13:50:19.068Z"}
+{"level":"info","message":"update employee data with employee_id: 2, reques update: [object Object]","timestamp":"2023-11-23T14:15:10.443Z"}
+{"level":"error","message":"Error on update employee: TypeError: db.one is not a function","timestamp":"2023-11-23T14:15:10.445Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:15:10 +0000] \"PUT /updateEmployee/2 HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:15:10.457Z"}
+{"level":"info","message":"update employee data with employee_id: 2, reques update: [object Object]","timestamp":"2023-11-23T14:15:56.195Z"}
+{"level":"error","message":"Error on update employee: TypeError: db.result is not a function","timestamp":"2023-11-23T14:15:56.269Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:15:56 +0000] \"PUT /updateEmployee/2 HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:15:56.277Z"}
+{"level":"info","message":"update employee data with employee_id: 2, reques update: [object Object]","timestamp":"2023-11-23T14:16:27.796Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:16:27 +0000] \"PUT /updateEmployee/2 HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:16:27.909Z"}
+{"level":"info","message":"update employee data with employee_id: 2, reques update: [object Object]","timestamp":"2023-11-23T14:16:54.139Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:16:54 +0000] \"PUT /updateEmployee/2 HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:16:54.218Z"}
+{"level":"info","message":"Insert employee data: [object Object]","timestamp":"2023-11-23T14:42:01.372Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:42:01 +0000] \"POST /insertEmployee HTTP/1.1\" 200 44 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:42:01.451Z"}
+{"level":"info","message":"update employee data with employee_id: 7, reques update: [object Object]","timestamp":"2023-11-23T14:42:37.788Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:42:37 +0000] \"PUT /updateEmployee/7 HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:42:37.859Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T14:53:27.231Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:53:27 +0000] \"DELETE /deleteEmployee/7 HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:53:27.243Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T14:53:46.646Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:53:46 +0000] \"POST /login HTTP/1.1\" 201 192 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:53:46.807Z"}
+{"level":"info","message":"Delete employee data: [object Object]","timestamp":"2023-11-23T14:53:57.992Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:14:53:58 +0000] \"DELETE /deleteEmployee/7 HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T14:53:58.057Z"}
+{"level":"error","message":"Forbidden: Invalid token","timestamp":"2023-11-23T15:11:38.569Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:15:11:38 +0000] \"GET /getemployee HTTP/1.1\" 403 38 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T15:11:38.579Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T15:12:01.066Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:15:12:01 +0000] \"GET /getemployee HTTP/1.1\" 201 1575 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T15:12:01.142Z"}
+{"level":"info","message":"User Login with (username: johnsmith","timestamp":"2023-11-23T16:13:40.689Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:13:40 +0000] \"POST /login HTTP/1.1\" 201 192 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:13:40.854Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:14:02 +0000] \"GET /getemployee HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:14:02.642Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:15:38 +0000] \"GET /getemployee HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:15:38.433Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:15:58 +0000] \"GET /employees HTTP/1.1\" 500 1445 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:15:58.701Z"}
+{"level":"info","message":"get all employee","timestamp":"2023-11-23T16:16:28.922Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:16:28 +0000] \"GET /employees HTTP/1.1\" 201 1575 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:16:28.998Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:18:15 +0000] \"PUT /employee/2 HTTP/1.1\" 404 149 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:18:15.715Z"}
+{"level":"info","message":"::1 - - [23/Nov/2023:16:20:45 +0000] \"PUT /employee/2 HTTP/1.1\" 404 149 \"-\" \"PostmanRuntime/7.35.0\"","timestamp":"2023-11-23T16:20:45.399Z"}

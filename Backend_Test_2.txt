@@ -1,0 +1,83 @@
+--1
+select * from employees e 
+--2
+select count(*) from employees e where e.job_title = 'Manager'
+--3
+select name, salary from employees where department = 'Sales' or department = 'Marketing'
+--4
+select  avg(salary) as average_salary
+from employees
+where joined_date > now() - interval '5 years';
+--5
+SELECT sd.employee_id,
+	    e.name,
+	    sum(sd.sales) as total_sales
+	  FROM
+	    sales_data sd
+	  left join employees e on sd.employee_id = e.employee_id 
+	  group by sd.employee_id , e.name order by total_sales desc limit 5
+--6
+WITH RankedSales AS (
+	  SELECT
+	    sd.employee_id,
+	    e.name,
+	    sum(sd.sales) as total_sales
+	  FROM
+	    sales_data sd
+	  left join employees e on sd.employee_id = e.employee_id 
+	  group by sd.employee_id , e.name
+	)
+	SELECT
+	  r.total_sales,
+	  r.name
+	FROM
+	  RankedSales r
+	ORDER BY
+	  r.total_sales desc 
+--7
+WITH DepartmentAvgSalary AS (
+  SELECT
+    department,
+    AVG(salary) AS avg_department_salary
+  FROM
+    employees
+  GROUP BY
+    department
+),
+OverallAvgSalary AS (
+  SELECT
+    AVG(salary) AS avg_overall_salary
+  FROM
+    employees
+)
+SELECT
+  e.name AS employee_name,
+  e.salary,
+  d.avg_department_salary
+FROM
+  employees e
+JOIN
+  DepartmentAvgSalary d ON e.department = d.department
+CROSS JOIN
+  OverallAvgSalary o
+WHERE
+  d.avg_department_salary > o.avg_overall_salary;
+--8
+CREATE OR REPLACE FUNCTION GetEmployeesInDepartment(IN department_name VARCHAR)
+RETURNS TABLE (
+    employee_name VARCHAR,
+    salary INT
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT
+        e.name AS employee_name,
+        e.salary
+    FROM
+        employees e
+    WHERE
+        e.department = department_name;
+
+    RETURN;
+END;
+$$ LANGUAGE plpgsql;
